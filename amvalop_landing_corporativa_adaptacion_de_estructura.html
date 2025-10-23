@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMVALOP Dominicana — Fortalecimiento Institucional</title>
+  <meta name="description" content="Consultoría, formación y evaluación (M&E) para organizaciones sociales. Diagnósticos, planificación estratégica y acompañamiento técnico en República Dominicana.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Tipografías cercanas al estilo corporativo -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Paleta AMVALOP (aproximación desde el logotipo) */
+    :root{
+      --amv-navy:#0F172A;     /* primario profundo */
+      --amv-navy-700:#1E293B; /* texto secundario */
+      --amv-teal:#0C7D7B;     /* acento principal */
+      --amv-teal-600:#0B6F6D; /* hover */
+      --amv-ice:#E6F3F2;      /* fondos suaves */
+      --amv-bg:#F7F8FA;       /* background global */
+      --amv-ink:#0A0E18;      /* texto */
+    }
+    html,body{font-family:Nunito,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,sans-serif; color:var(--amv-ink)}
+    .heading{font-family:Montserrat, Nunito, sans-serif}
+  </style>
+</head>
+<body class="min-h-screen bg-[var(--amv-bg)] antialiased">
+  <!-- Burbujas sutiles con la paleta AMVALOP -->
+  <div aria-hidden class="fixed inset-0 -z-10 overflow-hidden">
+    <div class="absolute -top-24 -left-20 h-80 w-80 rounded-full opacity-10 blur-3xl" style="background:var(--amv-teal)"></div>
+    <div class="absolute top-40 -right-24 h-96 w-96 rounded-full opacity-10 blur-3xl" style="background:var(--amv-navy)"></div>
+    <div class="absolute bottom-0 left-1/3 h-56 w-56 rounded-full opacity-10 blur-3xl" style="background:var(--amv-ice)"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-20 backdrop-blur bg-white/80 border-b border-white/40">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <!-- Logo (reemplaza src por tu archivo real, p. ej. /assets/amvalop-logo.png) -->
+        <img src="/assets/amvalop-logo.png" alt="AMVALOP Dominicana" class="h-9 w-auto" loading="lazy">
+        <div class="leading-tight">
+          <p class="text-base heading font-extrabold tracking-wide text-[var(--amv-navy)]">AMVALOP</p>
+          <p class="text-xs font-semibold text-[var(--amv-teal)]">DOMINICANA</p>
+        </div>
+      </div>
+      <nav class="hidden sm:flex items-center gap-3">
+        <a href="#servicios" class="px-3 py-2 rounded-xl hover:bg-[color:var(--amv-ice)/.6] transition">Servicios</a>
+        <a href="#metodologia" class="px-3 py-2 rounded-xl hover:bg-[color:var(--amv-ice)/.6] transition">Metodología</a>
+        <a href="#contacto" class="px-4 py-2 rounded-xl text-white" style="background:var(--amv-teal)">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero corporativo -->
+  <section class="relative">
+    <div class="mx-auto max-w-6xl px-4 py-12 sm:py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="heading text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight text-[var(--amv-navy)]">
+          Fortalecimiento institucional <span class="text-[var(--amv-teal)]">para más impacto social</span>
+        </h1>
+        <p class="mt-3 text-base sm:text-lg text-[var(--amv-navy-700)]">
+          Acompañamos a organizaciones sociales con <strong>diagnósticos</strong>, <strong>planificación</strong>,
+          <strong>Monitoreo y Evaluación (M&E)</strong> y <strong>formación</strong>. Consultoría práctica y medible.
+        </p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <a href="https://wa.me/18094552852" class="inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-white font-semibold shadow-md active:scale-[.99]" style="background:var(--amv-teal)">
+            <!-- WA icon -->
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.94 11.94 0 0012.06 0C5.46.03.1 5.41.13 12c0 2.11.55 4.2 1.6 6.03L0 24l6.14-1.6a12.04 12.04 0 005.94 1.57h.02c6.6-.03 11.96-5.41 11.93-12a11.9 11.9 0 00-3.51-8.49zM12.1 22.03a10 10 0 01-5.09-1.4l-.36-.21-3.64.95.97-3.54-.24-.37a9.9 9.9 0 01-1.55-5.25C2.16 6.48 6.6 2.05 12.08 2.02c2.64 0 5.13 1.03 7 2.91a9.97 9.97 0 012.94 7.06c.03 5.49-4.41 9.99-9.92 10.04z"/><path d="M17.36 14.35c-.29-.14-1.7-.84-1.97-.93-.27-.1-.46-.14-.64.14-.18.28-.73.93-.9 1.12-.16.19-.33.2-.62.07-.29-.14-1.2-.44-2.28-1.41-.84-.76-1.4-1.7-1.56-1.98-.16-.28-.02-.43.12-.57.12-.12.27-.31.41-.46.14-.16.18-.27.27-.45.09-.19.05-.35-.02-.5-.07-.14-.64-1.54-.88-2.11-.23-.55-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.35-.26.28-.99.97-.99 2.36s1.02 2.74 1.16 2.93c.14.19 2.01 3.2 4.87 4.48.68.3 1.2.48 1.61.61.68.22 1.31.19 1.8.12.55-.08 1.7-.69 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.19-.55-.33z"/></svg>
+            Háblanos por WhatsApp
+          </a>
+          <a href="#contacto" class="inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 font-semibold shadow-md border" style="border-color:var(--amv-teal); color:var(--amv-teal)">
+            Solicitar asesoría
+          </a>
+        </div>
+        <p class="mt-3 text-xs text-[var(--amv-navy-700)]/70">Al hacer clic se abrirá la app correspondiente.</p>
+      </div>
+      <div class="md:justify-self-end">
+        <div class="relative rounded-3xl p-6 shadow-xl border bg-white">
+          <div class="absolute -top-6 -left-6">
+            <!-- Badge simple en tonos AMVALOP -->
+            <svg class="w-16 h-16" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M50 10 L75 35 L35 75 L10 50 Z" fill="var(--amv-teal)"/>
+              <path d="M60 20 L90 50 L70 70 L40 40 Z" fill="var(--amv-navy)"/>
+            </svg>
+          </div>
+          <ul class="mt-2 space-y-3 text-sm">
+            <li class="flex items-center gap-2"><span class="inline-block h-2 w-2 rounded-full" style="background:var(--amv-teal)"></span> Diagnósticos institucionales y planes de mejora</li>
+            <li class="flex items-center gap-2"><span class="inline-block h-2 w-2 rounded-full" style="background:var(--amv-teal)"></span> Monitoreo y Evaluación (M&E) con enfoque de impacto</li>
+            <li class="flex items-center gap-2"><span class="inline-block h-2 w-2 rounded-full" style="background:var(--amv-teal)"></span> Formación práctica para equipos y voluntariado</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios AMVALOP -->
+  <section id="servicios" class="mx-auto max-w-6xl px-4 py-10">
+    <h2 class="heading text-2xl sm:text-3xl font-bold text-[var(--amv-navy)]">Servicios</h2>
+    <div class="mt-6 grid sm:grid-cols-2 gap-6">
+      <article class="rounded-3xl border bg-white shadow-sm p-6">
+        <div class="flex items-start justify-between gap-4">
+          <h3 class="heading text-xl font-semibold">Diagnósticos & Planificación</h3>
+          <span class="rounded-full px-3 py-1 text-xs font-bold text-white" style="background:var(--amv-teal)">Core</span>
+        </div>
+        <p class="mt-2 text-[var(--amv-navy-700)]">Evaluaciones organizacionales, teoría de cambio y planificación estratégica con hojas de ruta accionables.</p>
+        <a href="#contacto" class="mt-4 inline-flex items-center gap-2 rounded-xl px-4 py-2 text-white font-semibold shadow-md" style="background:var(--amv-teal)">
+          Solicitar propuesta
+        </a>
+      </article>
+      <article class="rounded-3xl border bg-white shadow-sm p-6">
+        <h3 class="heading text-xl font-semibold">Monitoreo y Evaluación (M&E)</h3>
+        <p class="mt-2 text-[var(--amv-navy-700)]">Diseño de marcos lógicos, indicadores, líneas base y medición de impacto de programas y proyectos.</p>
+        <a href="#contacto" class="mt-4 inline-flex items-center gap-2 rounded-xl px-4 py-2 text-white font-semibold shadow-md" style="background:var(--amv-teal)">
+          Quiero implementar M&E
+        </a>
+      </article>
+      <article class="rounded-3xl border bg-white shadow-sm p-6">
+        <h3 class="heading text-xl font-semibold">Formación & Talleres</h3>
+        <p class="mt-2 text-[var(--amv-navy-700)]">Capacitaciones en gestión de ONGs, finanzas, formulación de proyectos e indicadores, in‑company o abiertas.</p>
+        <a href="#contacto" class="mt-4 inline-flex items-center gap-2 rounded-xl px-4 py-2 text-white font-semibold shadow-md" style="background:var(--amv-teal)">
+          Consultar agenda
+        </a>
+      </article>
+      <article class="rounded-3xl border bg-white shadow-sm p-6">
+        <h3 class="heading text-xl font-semibold">Acompañamiento técnico</h3>
+        <p class="mt-2 text-[var(--amv-navy-700)]">Soporte continuo para implementación, seguimiento de KPIs y mejora de procesos.</p>
+        <a href="#contacto" class="mt-4 inline-flex items-center gap-2 rounded-xl px-4 py-2 text-white font-semibold shadow-md" style="background:var(--amv-teal)">
+          Solicitar acompañamiento
+        </a>
+      </article>
+    </div>
+
+    <div class="mt-6 rounded-2xl border bg-[var(--amv-ice)] p-4 text-sm" style="border-color:var(--amv-teal)">
+      <p class="heading font-semibold text-[var(--amv-teal)]">Enfoque</p>
+      <p class="text-[var(--amv-navy-700)]">Practicidad, evidencia y co‑creación con los equipos. Entregables claros y ejecutables.</p>
+    </div>
+  </section>
+
+  <!-- Metodología -->
+  <section id="metodologia" class="mx-auto max-w-6xl px-4 py-10">
+    <h2 class="heading text-2xl sm:text-3xl font-bold text-[var(--amv-navy)]">Nuestra metodología</h2>
+    <div class="mt-6 grid md:grid-cols-3 gap-6">
+      <div class="rounded-3xl border bg-white p-6 shadow-sm">
+        <p class="heading text-lg font-semibold">1. Diagnóstico</p>
+        <p class="text-[var(--amv-navy-700)] mt-1">Revisión documental, entrevistas y mapeo de procesos.</p>
+      </div>
+      <div class="rounded-3xl border bg-white p-6 shadow-sm">
+        <p class="heading text-lg font-semibold">2. Diseño</p>
+        <p class="text-[var(--amv-navy-700)] mt-1">Teoría de cambio, indicadores y plan de acción.</p>
+      </div>
+      <div class="rounded-3xl border bg-white p-6 shadow-sm">
+        <p class="heading text-lg font-semibold">3. Implementación</p>
+        <p class="text-[var(--amv-navy-700)] mt-1">Acompañamiento, formación y seguimiento de resultados.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cobertura y Horarios (virtual) -->
+  <section class="mx-auto max-w-6xl px-4 py-10">
+    <h2 class="heading text-2xl sm:text-3xl font-bold text-[var(--amv-navy)]">Cobertura y horarios</h2>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div class="rounded-3xl border bg-white p-6 shadow-sm">
+        <div class="flex items-center gap-2 text-[var(--amv-navy)] font-semibold">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5A2.5 2.5 0 119.5 9 2.5 2.5 0 0112 11.5z"/></svg>
+          República Dominicana · Atención virtual y presencial a demanda
+        </div>
+        <p class="mt-2 text-[var(--amv-navy-700)]">Sesiones por videollamada y visitas planificadas según proyecto.</p>
+      </div>
+      <div class="rounded-3xl border bg-white p-6 shadow-sm">
+        <p class="text-sm text-[var(--amv-navy-700)]/80">Horario</p>
+        <ul class="mt-2 space-y-2">
+          <li class="flex items-center justify-between py-2 border-b"><span>Lunes a Viernes</span><span class="font-semibold">9:00 AM – 4:30 PM</span></li>
+          <li class="flex items-center justify-between py-2"><span>Sábado</span><span class="font-semibold">Citas programadas</span></li>
+        </ul>
+        <div class="mt-4 text-sm text-[var(--amv-navy-700)]/80">Domingo cerrado</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Redes y Contacto -->
+  <section id="contacto" class="mx-auto max-w-6xl px-4 py-10">
+    <h2 class="heading text-2xl sm:text-3xl font-bold text-[var(--amv-navy)]">Redes y contacto</h2>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div class="rounded-3xl border bg-white p-6 shadow-sm">
+        <form class="space-y-4" onsubmit="event.preventDefault(); alert('Gracias, te contactaremos a la brevedad.');">
+          <div>
+            <label class="block text-sm font-medium">Nombre</label>
+            <input class="w-full rounded-2xl border p-3" style="border-color:var(--amv-ice)" required />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Email</label>
+            <input type="email" class="w-full rounded-2xl border p-3" style="border-color:var(--amv-ice)" required />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Mensaje</label>
+            <textarea rows="4" class="w-full rounded-2xl border p-3" style="border-color:var(--amv-ice)" required></textarea>
+          </div>
+          <button class="px-5 py-3 rounded-2xl text-white font-semibold" style="background:var(--amv-teal)">Enviar</button>
+          <a href="https://wa.me/18094552852" class="ml-2 inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold border" style="border-color:var(--amv-teal); color:var(--amv-teal)">WhatsApp</a>
+        </form>
+      </div>
+      <div class="rounded-3xl border bg-white p-6 shadow-sm">
+        <p class="text-sm text-[var(--amv-navy-700)]/80">Canales</p>
+        <ul class="mt-3 space-y-2">
+          <li class="flex items-center justify-between"><span>WhatsApp</span><a class="font-semibold text-[var(--amv-teal)]" href="https://wa.me/18094552852">809‑455‑2852</a></li>
+          <li class="flex items-center justify-between"><span>Correo</span><span class="font-semibold">amvalopdominicana@gmail.com</span></li>
+          <li class="flex items-center justify-between"><span>Instagram</span><a class="font-semibold text-[var(--amv-teal)]" href="https://instagram.com/amvalopdominicana" target="_blank" rel="noreferrer">@amvalopdominicana</a></li>
+          <li class="flex items-center justify-between"><span>Horario</span><span class="font-semibold">L‑V 9:00–16:30</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t bg-white/80">
+    <div class="mx-auto max-w-6xl px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="h-8 w-8 rounded-md" style="background:linear-gradient(135deg,var(--amv-teal),var(--amv-navy))"></div>
+        <div class="text-sm">
+          <p class="heading font-semibold text-[var(--amv-navy)]">AMVALOP Dominicana</p>
+          <p class="text-[var(--amv-navy-700)]">© <span id="year"></span> — Consultoría • M&E • Formación</p>
+        </div>
+      </div>
+      <div class="text-sm text-[var(--amv-navy-700)] flex items-center gap-4">
+        <a href="#" class="hover:text-[var(--amv-teal)]">Política de privacidad</a>
+        <a href="#" class="hover:text-[var(--amv-teal)]">Términos</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <a
+    href="https://wa.me/18094552852"
+    class="fixed bottom-4 right-4 md:bottom-6 md:right-6 inline-flex items-center gap-2 rounded-full px-5 py-3 text-white shadow-xl"
+    style="background:#25D366"
+    aria-label="Abrir WhatsApp"
+  >WhatsApp</a>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
